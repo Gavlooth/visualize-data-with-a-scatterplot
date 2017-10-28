@@ -1,0 +1,36 @@
+         body {
+            font: 11px sans-serif;
+        }
+
+        .axis path {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .dot {
+            stroke: #000;
+        }
+
+        .tooltip {
+            position: absolute;
+            width: 150px;
+            height: 60px;
+            pointer-events: none;
+            color: black;
+            padding: 6px;
+            background-color: #DCBB11;
+            font-family: sans-serif;
+            font-size: 80%;
+            visibility: hidden;
+            z-index: 10;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+        .tooltip > span{
+            margin-top: 3%;
+        }
+ 
